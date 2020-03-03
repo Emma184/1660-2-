@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: car model 7.ma
-//Last modified: Tue, Mar 03, 2020 11:17:05 AM
+//Last modified: Tue, Mar 03, 2020 11:18:07 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,7 +15,7 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "AF50D050-4212-F844-C0C7-7FA335F8FBF3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -11.296321441841727 10.578215376227142 5.9979288033947435 ;
+	setAttr ".t" -type "double3" -22.310457047059323 13.970573524813485 9.0317271970355719 ;
 	setAttr ".r" -type "double3" -16.538353469651263 2445.3999999994339 0 ;
 	setAttr ".rp" -type "double3" -1.1102230246251565e-16 2.6645352591003757e-15 -2.8421709430404007e-14 ;
 	setAttr ".rpt" -type "double3" 2.8295957588096559e-16 6.5432096318673246e-15 1.4014667845316896e-15 ;
@@ -23,7 +23,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DC379793-4F65-5F8A-B27D-98956D29BE0C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 8.0487721209021661;
+	setAttr ".coi" 19.966121223435831;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
