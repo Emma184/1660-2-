@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: car model 21.ma
-//Last modified: Tue, Apr 21, 2020 10:54:41 AM
+//Last modified: Tue, Apr 21, 2020 10:59:09 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,15 +15,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "AF50D050-4212-F844-C0C7-7FA335F8FBF3";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.99545037510455003 27.548562152022644 23.333514553624571 ;
-	setAttr ".r" -type "double3" 310.46164677408512 6132.6000000005906 4.0738037370528103e-15 ;
+	setAttr ".t" -type "double3" -6.332075971355331 7.9119324031445757 17.384297505079136 ;
+	setAttr ".r" -type "double3" 343.46164677407847 6116.200000000621 -9.9611332468566629e-17 ;
 	setAttr ".rp" -type "double3" -1.1102230246251565e-16 2.6645352591003757e-15 -2.8421709430404007e-14 ;
 	setAttr ".rpt" -type "double3" 2.8295957588096559e-16 6.5432096318673246e-15 1.4014667845316896e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "DC379793-4F65-5F8A-B27D-98956D29BE0C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 31.214371950679254;
+	setAttr ".coi" 14.44731028560969;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -71008,7 +71008,7 @@ createNode mesh -n "pCylinderShape128" -p "pCylinder128";
 	setAttr ".ai_translator" -type "string" "polymesh";
 createNode transform -n "pCylinder129";
 	rename -uid "706AF99A-4BBB-ACC1-9508-23B0888EAC9C";
-	setAttr ".t" -type "double3" 0 -4.3214740416232988 0 ;
+	setAttr ".t" -type "double3" 6.4289528157607094 -4.3214740416232988 0 ;
 	setAttr ".rp" -type "double3" -4.4929187297821045 9.5905179977416992 9.0468454360961914 ;
 	setAttr ".sp" -type "double3" -4.4929187297821045 9.5905179977416992 9.0468454360961914 ;
 createNode mesh -n "pCylinder129Shape" -p "pCylinder129";
